@@ -3,12 +3,13 @@ project(labki)
 
 set(CMAKE_CXX_STANDARD 20)
 find_package(Curses REQUIRED)
-add_executable(labki main.cpp
-        Organizm.cpp
-        Organizm.h
-        Swiat.cpp
-        Swiat.h)
-
+add_executable(labki
+    main.cpp
+    Organizm.cpp
+    Swiat.cpp
+    zwierzeta/Zwierzeta.cpp
+    zwierzeta/Wilk.cpp
+    rosilny/Rosliny.cpp)
 
 target_include_directories(labki PRIVATE ${CURSES_INCLUDE_DIRS})
 

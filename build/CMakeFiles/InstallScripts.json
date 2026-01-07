@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/dante/projects/labki/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,3 @@
+/home/dante/projects/labki/build/CMakeFiles/labki.dir
+/home/dante/projects/labki/build/CMakeFiles/edit_cache.dir
+/home/dante/projects/labki/build/CMakeFiles/rebuild_cache.dir

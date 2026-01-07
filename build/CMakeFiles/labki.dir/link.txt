@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/labki.dir/link.d CMakeFiles/labki.dir/main.cpp.o CMakeFiles/labki.dir/Organizm.cpp.o CMakeFiles/labki.dir/Swiat.cpp.o CMakeFiles/labki.dir/zwierzeta/Zwierzeta.cpp.o CMakeFiles/labki.dir/zwierzeta/Wilk.cpp.o CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o -o labki  -lcurses -lform
