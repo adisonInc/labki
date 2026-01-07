@@ -1,6 +1,9 @@
-CMakeFiles/labki.dir/main.cpp.o: /home/dante/projects/labki/main.cpp \
- /usr/include/stdc-predef.h /home/dante/projects/labki/Swiat.h \
- /home/dante/projects/labki/Organizm.h /usr/include/c++/15.2.1/cstdlib \
+CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o: \
+ /home/dante/projects/labki/zwierzeta/Owca.cpp /usr/include/stdc-predef.h \
+ /home/dante/projects/labki/zwierzeta/Owca.h \
+ /home/dante/projects/labki/zwierzeta/Zwierzeta.h \
+ /home/dante/projects/labki/zwierzeta/../Organizm.h \
+ /usr/include/c++/15.2.1/cstdlib \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -30,6 +33,7 @@ CMakeFiles/labki.dir/main.cpp.o: /home/dante/projects/labki/main.cpp \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h /usr/include/c++/15.2.1/bits/std_abs.h \
+ /home/dante/projects/labki/zwierzeta/../Swiat.h \
  /usr/include/c++/15.2.1/iostream \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/ostream /usr/include/c++/15.2.1/bits/ostream.h \
@@ -152,13 +156,4 @@ CMakeFiles/labki.dir/main.cpp.o: /home/dante/projects/labki/main.cpp \
  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
  /usr/include/c++/15.2.1/bits/stl_vector.h \
  /usr/include/c++/15.2.1/bits/stl_bvector.h \
- /usr/include/c++/15.2.1/bits/vector.tcc \
- /home/dante/projects/labki/zwierzeta/Owca.h \
- /home/dante/projects/labki/zwierzeta/Zwierzeta.h \
- /home/dante/projects/labki/zwierzeta/Wilk.h \
- /usr/include/c++/15.2.1/ctime /usr/include/curses.h \
- /usr/include/ncurses_dll.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h /usr/include/unctrl.h \
- /usr/include/curses.h
+ /usr/include/c++/15.2.1/bits/vector.tcc

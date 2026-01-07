@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/labki.dir/main.cpp.o.d"
   "CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o"
   "CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o.d"
+  "CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o"
+  "CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o.d"
   "CMakeFiles/labki.dir/zwierzeta/Wilk.cpp.o"
   "CMakeFiles/labki.dir/zwierzeta/Wilk.cpp.o.d"
   "CMakeFiles/labki.dir/zwierzeta/Zwierzeta.cpp.o"

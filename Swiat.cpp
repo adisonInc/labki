@@ -35,17 +35,30 @@ void Swiat::setGrid(int n, int m) {
 void Swiat::paintGrid() {
     clear();
     mvprintw(N + 1, 0, "Wymiary: %dx%d", M, N);
+    int lines = 1;
+    int wilki = 0;
+    int owce = 0;
+    for (Organizm *c : inicjatywy) {
+        if (c->rysowanie() == 'W') {
+            wilki++;
+        } else {
+            owce++;
+        }
+        lines++;
+    }
 
-    for (int i = 0; i < N; ++i) {     // i = wiersze (Y)
-        for (int j = 0; j < M; ++j) { // j = kolumny (X)
+    mvprintw(N + 2, 0, "owce: %d", owce);
+    mvprintw(N + 3, 0, "wilki: %d", wilki);
+    for (int i = 0; i < N; ++i) {
+        for (int j = 0; j < M; ++j) {
 
             move(i, j);
 
             if (grid[i][j] != nullptr) {
-                char x = grid[i][j]->rysowanie(); // Tu jest organizm
+                char x = grid[i][j]->rysowanie();
                 printw("%c", x);
             } else {
-                printw("."); // Puste pole
+                printw(".");
             }
         }
     }

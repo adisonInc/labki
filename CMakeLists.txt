@@ -9,6 +9,7 @@ add_executable(labki
     Swiat.cpp
     zwierzeta/Zwierzeta.cpp
     zwierzeta/Wilk.cpp
+    zwierzeta/Owca.cpp
     rosilny/Rosliny.cpp)
 
 target_include_directories(labki PRIVATE ${CURSES_INCLUDE_DIRS})

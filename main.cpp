@@ -1,9 +1,11 @@
 #include "Swiat.h"
+#include "zwierzeta/Owca.h"
 #include "zwierzeta/Wilk.h"
+#include <ctime>
 #include <ncurses.h>
 
 int main() {
-    srand(321);
+    srand(time(NULL));
     initscr();
     noecho();
     curs_set(0);
@@ -12,8 +14,9 @@ int main() {
     Swiat *kox = Swiat::createSwiat();
 
     if (kox) {
-        kox->setGrid(3, 3);
-        kox->wypelnijGrid<Wilk>(2);
+        kox->setGrid(40, 50);
+        kox->wypelnijGrid<Wilk>(3);
+        kox->wypelnijGrid<Owca>(6);
 
         int klawisz;
         while (true) {

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/dante/projects/labki/Swiat.cpp" "CMakeFiles/labki.dir/Swiat.cpp.o" "gcc" "CMakeFiles/labki.dir/Swiat.cpp.o.d"
   "/home/dante/projects/labki/main.cpp" "CMakeFiles/labki.dir/main.cpp.o" "gcc" "CMakeFiles/labki.dir/main.cpp.o.d"
   "/home/dante/projects/labki/rosilny/Rosliny.cpp" "CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o" "gcc" "CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o.d"
+  "/home/dante/projects/labki/zwierzeta/Owca.cpp" "CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o" "gcc" "CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o.d"
   "/home/dante/projects/labki/zwierzeta/Wilk.cpp" "CMakeFiles/labki.dir/zwierzeta/Wilk.cpp.o" "gcc" "CMakeFiles/labki.dir/zwierzeta/Wilk.cpp.o.d"
   "/home/dante/projects/labki/zwierzeta/Zwierzeta.cpp" "CMakeFiles/labki.dir/zwierzeta/Zwierzeta.cpp.o" "gcc" "CMakeFiles/labki.dir/zwierzeta/Zwierzeta.cpp.o.d"
   "" "labki" "gcc" "CMakeFiles/labki.dir/link.d"

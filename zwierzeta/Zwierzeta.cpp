@@ -4,8 +4,9 @@ int Zwierzeta::losuj() { return rand() % 3 - 1; }
 
 void Zwierzeta::idz() {
     bool wykonanoRuch = false;
-
-    while (!wykonanoRuch) {
+    int proby = 0;
+    while (!wykonanoRuch && proby < 10) {
+        proby++;
         Punkt v = Punkt(losuj(), losuj());
         if (v.x == 0 && v.y == 0) {
             continue;

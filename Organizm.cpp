@@ -25,7 +25,9 @@ void Organizm::setZyje(bool x) { this->zyje = x; };
 
 void Organizm::rozmnoz(Punkt p) {
     bool znaleziono = false;
-    while (!znaleziono) {
+    int proby = 0;
+    while (proby < 10) {
+        proby++;
         int rx = rand() % 3 - 1 + p.x;
         int ry = rand() % 3 - 1 + p.y;
         Punkt rnd = Punkt(rx, ry);

@@ -232,6 +232,30 @@ rosilny/Rosliny.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/rosilny/Rosliny.cpp.s
 .PHONY : rosilny/Rosliny.cpp.s
 
+zwierzeta/Owca.o: zwierzeta/Owca.cpp.o
+.PHONY : zwierzeta/Owca.o
+
+# target to build an object file
+zwierzeta/Owca.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o
+.PHONY : zwierzeta/Owca.cpp.o
+
+zwierzeta/Owca.i: zwierzeta/Owca.cpp.i
+.PHONY : zwierzeta/Owca.i
+
+# target to preprocess a source file
+zwierzeta/Owca.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/zwierzeta/Owca.cpp.i
+.PHONY : zwierzeta/Owca.cpp.i
+
+zwierzeta/Owca.s: zwierzeta/Owca.cpp.s
+.PHONY : zwierzeta/Owca.s
+
+# target to generate assembly for a file
+zwierzeta/Owca.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/zwierzeta/Owca.cpp.s
+.PHONY : zwierzeta/Owca.cpp.s
+
 zwierzeta/Wilk.o: zwierzeta/Wilk.cpp.o
 .PHONY : zwierzeta/Wilk.o
 
@@ -302,6 +326,9 @@ help:
 	@echo "... rosilny/Rosliny.o"
 	@echo "... rosilny/Rosliny.i"
 	@echo "... rosilny/Rosliny.s"
+	@echo "... zwierzeta/Owca.o"
+	@echo "... zwierzeta/Owca.i"
+	@echo "... zwierzeta/Owca.s"
 	@echo "... zwierzeta/Wilk.o"
 	@echo "... zwierzeta/Wilk.i"
 	@echo "... zwierzeta/Wilk.s"
