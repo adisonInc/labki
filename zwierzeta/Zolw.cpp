@@ -14,10 +14,26 @@ void Zolw::kolizja(Organizm *napastnik) {
         this->rozmnoz(this->polozenie);
     } else if (napastnik->getSila() < 5) {
         Zwierzeta *z = dynamic_cast<Zwierzeta *>(napastnik);
-        if (z)
+        if (z) {
             z->wroc();
-        world->dodajLogi("Zolw obil");
+        }
+        world->dodajLogi("Zolw odpiera atak!");
     } else {
-        walka(napastnik);
+        if (napastnik->getSila() > this->getSila()) {
+            world->dodajLogi("Wilk (lub inny silny) zjada Zolwia");
+            this->setZyje(false);
+
+            Punkt staraPozNapastnika = napastnik->getPolozenie();
+            Punkt pozycjaZolwia = this->getPolozenie();
+
+            world->zmienPoz(staraPozNapastnika, pozycjaZolwia, napastnik);
+            napastnik->setPolozenie(pozycjaZolwia);
+        }
+
+        else {
+            napastnik->setZyje(false);
+            world->zmienPoz(napastnik->getPolozenie(),
+                            napastnik->getPolozenie(), nullptr);
+        }
     }
 }

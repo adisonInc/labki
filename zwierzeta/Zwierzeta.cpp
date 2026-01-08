@@ -18,7 +18,7 @@ void Zwierzeta::idz() {
                 polozenie = cel;
                 wykonanoRuch = true;
             } else {
-                this->kolizja(world->ktoTutaj(cel));
+                world->ktoTutaj(cel)->kolizja(this);
                 wykonanoRuch = true;
             }
         }
@@ -32,7 +32,7 @@ void Zwierzeta::idz(Punkt cel) {
             world->zmienPoz(polozenie, cel, this);
             polozenie = cel;
         } else {
-            this->kolizja(world->ktoTutaj(cel));
+            world->ktoTutaj(cel)->kolizja(this);
         }
     }
 }

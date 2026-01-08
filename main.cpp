@@ -25,11 +25,11 @@ int main() {
 
     if (kox) {
         kox->setGrid(4, 3);
-        kox->wypelnijGrid<Wilk>(1);
-        // kox->wypelnijGrid<Owca>(1);
-        //  kox->wypelnijGrid<Lis>(3);
-        kox->wypelnijGrid<Antylopa>(1);
-        // kox->wypelnijGrid<Zolw>(1);
+        // kox->wypelnijGrid<Wilk>(1);
+        kox->wypelnijGrid<Owca>(1);
+        //   kox->wypelnijGrid<Lis>(3);
+        // kox->wypelnijGrid<Antylopa>(1);
+        kox->wypelnijGrid<Zolw>(1);
 
         int klawisz;
         while (true) {

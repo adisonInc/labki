@@ -65,7 +65,7 @@ class Swiat {
 
     Organizm *ktoTutaj(Punkt &p);
     bool sprawdzCzyWGrid(Punkt &p);
-    Punkt losujPole();
+    Punkt pustySasiad(Punkt start);
 
     void dodajLogi(std::string s);
     void wypiszLogi();

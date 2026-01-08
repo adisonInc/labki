@@ -1,5 +1,6 @@
 #include "Swiat.h"
 #include "Organizm.h"
+#include <cstdlib>
 #include <ncurses.h>
 #include <string>
 
@@ -87,6 +88,19 @@ bool Swiat::sprawdzPole(Punkt &p) {
     }
     return true;
 }
+
+Punkt Swiat::pustySasiad(Punkt start) {
+    for (auto i = 0; i < 30; i++) {
+        int xr = rand() % 3 - 1;
+        int yr = rand() % 3 - 1;
+        Punkt rnd(xr, yr);
+        if (sprawdzCzyWGrid(rnd) && ktoTutaj(rnd) == nullptr) {
+            return rnd;
+        }
+    }
+    return start;
+}
+
 Organizm *Swiat::ktoTutaj(Punkt &p) { return grid[p.y][p.x]; }
 
 void Swiat::wykonajTure() {
