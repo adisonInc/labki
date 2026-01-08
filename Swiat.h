@@ -1,6 +1,8 @@
 #pragma once
 #include "Organizm.h"
+#include "algorithm"
 #include <iostream>
+#include <string>
 #include <vector>
 class Swiat {
   private:
@@ -10,6 +12,8 @@ class Swiat {
 
     std::vector<std::vector<Organizm *>> grid;
     std::vector<Organizm *> inicjatywy;
+
+    std::vector<std::string> logi;
 
     Swiat();
 
@@ -62,4 +66,8 @@ class Swiat {
     Organizm *ktoTutaj(Punkt &p);
     bool sprawdzCzyWGrid(Punkt &p);
     Punkt losujPole();
+
+    void dodajLogi(std::string s);
+    void wypiszLogi();
+    void czyscLogi();
 };

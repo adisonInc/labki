@@ -1,6 +1,9 @@
-CMakeFiles/labki.dir/Organizm.cpp.o: \
- /home/dante/projects/labki/Organizm.cpp /usr/include/stdc-predef.h \
- /home/dante/projects/labki/Organizm.h /usr/include/c++/15.2.1/cstdlib \
+CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.o: \
+ /home/dante/projects/labki/zwierzeta/Zolw.cpp /usr/include/stdc-predef.h \
+ /home/dante/projects/labki/zwierzeta/Zolw.h \
+ /home/dante/projects/labki/zwierzeta/Zwierzeta.h \
+ /home/dante/projects/labki/zwierzeta/../Organizm.h \
+ /usr/include/c++/15.2.1/cstdlib \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -30,7 +33,8 @@ CMakeFiles/labki.dir/Organizm.cpp.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h /usr/include/c++/15.2.1/bits/std_abs.h \
- /home/dante/projects/labki/Swiat.h /usr/include/c++/15.2.1/algorithm \
+ /home/dante/projects/labki/zwierzeta/../Swiat.h \
+ /usr/include/c++/15.2.1/algorithm \
  /usr/include/c++/15.2.1/bits/stl_algobase.h \
  /usr/include/c++/15.2.1/bits/functexcept.h \
  /usr/include/c++/15.2.1/bits/exception_defines.h \

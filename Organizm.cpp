@@ -23,6 +23,9 @@ void Organizm::setPolozenie(Punkt P) {
 bool Organizm::getZyje() { return this->zyje; };
 void Organizm::setZyje(bool x) { this->zyje = x; };
 
+int Organizm::getWiek() { return this->wiek; }
+void Organizm::incWiek() { this->wiek++; }
+
 void Organizm::rozmnoz(Punkt p) {
     bool znaleziono = false;
     int proby = 0;

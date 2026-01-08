@@ -232,6 +232,54 @@ rosilny/Rosliny.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/rosilny/Rosliny.cpp.s
 .PHONY : rosilny/Rosliny.cpp.s
 
+zwierzeta/Antylopa.o: zwierzeta/Antylopa.cpp.o
+.PHONY : zwierzeta/Antylopa.o
+
+# target to build an object file
+zwierzeta/Antylopa.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.o
+.PHONY : zwierzeta/Antylopa.cpp.o
+
+zwierzeta/Antylopa.i: zwierzeta/Antylopa.cpp.i
+.PHONY : zwierzeta/Antylopa.i
+
+# target to preprocess a source file
+zwierzeta/Antylopa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.i
+.PHONY : zwierzeta/Antylopa.cpp.i
+
+zwierzeta/Antylopa.s: zwierzeta/Antylopa.cpp.s
+.PHONY : zwierzeta/Antylopa.s
+
+# target to generate assembly for a file
+zwierzeta/Antylopa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.s
+.PHONY : zwierzeta/Antylopa.cpp.s
+
+zwierzeta/Lis.o: zwierzeta/Lis.cpp.o
+.PHONY : zwierzeta/Lis.o
+
+# target to build an object file
+zwierzeta/Lis.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/zwierzeta/Lis.cpp.o
+.PHONY : zwierzeta/Lis.cpp.o
+
+zwierzeta/Lis.i: zwierzeta/Lis.cpp.i
+.PHONY : zwierzeta/Lis.i
+
+# target to preprocess a source file
+zwierzeta/Lis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/zwierzeta/Lis.cpp.i
+.PHONY : zwierzeta/Lis.cpp.i
+
+zwierzeta/Lis.s: zwierzeta/Lis.cpp.s
+.PHONY : zwierzeta/Lis.s
+
+# target to generate assembly for a file
+zwierzeta/Lis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/zwierzeta/Lis.cpp.s
+.PHONY : zwierzeta/Lis.cpp.s
+
 zwierzeta/Owca.o: zwierzeta/Owca.cpp.o
 .PHONY : zwierzeta/Owca.o
 
@@ -280,6 +328,30 @@ zwierzeta/Wilk.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/zwierzeta/Wilk.cpp.s
 .PHONY : zwierzeta/Wilk.cpp.s
 
+zwierzeta/Zolw.o: zwierzeta/Zolw.cpp.o
+.PHONY : zwierzeta/Zolw.o
+
+# target to build an object file
+zwierzeta/Zolw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.o
+.PHONY : zwierzeta/Zolw.cpp.o
+
+zwierzeta/Zolw.i: zwierzeta/Zolw.cpp.i
+.PHONY : zwierzeta/Zolw.i
+
+# target to preprocess a source file
+zwierzeta/Zolw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.i
+.PHONY : zwierzeta/Zolw.cpp.i
+
+zwierzeta/Zolw.s: zwierzeta/Zolw.cpp.s
+.PHONY : zwierzeta/Zolw.s
+
+# target to generate assembly for a file
+zwierzeta/Zolw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labki.dir/build.make CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.s
+.PHONY : zwierzeta/Zolw.cpp.s
+
 zwierzeta/Zwierzeta.o: zwierzeta/Zwierzeta.cpp.o
 .PHONY : zwierzeta/Zwierzeta.o
 
@@ -326,12 +398,21 @@ help:
 	@echo "... rosilny/Rosliny.o"
 	@echo "... rosilny/Rosliny.i"
 	@echo "... rosilny/Rosliny.s"
+	@echo "... zwierzeta/Antylopa.o"
+	@echo "... zwierzeta/Antylopa.i"
+	@echo "... zwierzeta/Antylopa.s"
+	@echo "... zwierzeta/Lis.o"
+	@echo "... zwierzeta/Lis.i"
+	@echo "... zwierzeta/Lis.s"
 	@echo "... zwierzeta/Owca.o"
 	@echo "... zwierzeta/Owca.i"
 	@echo "... zwierzeta/Owca.s"
 	@echo "... zwierzeta/Wilk.o"
 	@echo "... zwierzeta/Wilk.i"
 	@echo "... zwierzeta/Wilk.s"
+	@echo "... zwierzeta/Zolw.o"
+	@echo "... zwierzeta/Zolw.i"
+	@echo "... zwierzeta/Zolw.s"
 	@echo "... zwierzeta/Zwierzeta.o"
 	@echo "... zwierzeta/Zwierzeta.i"
 	@echo "... zwierzeta/Zwierzeta.s"

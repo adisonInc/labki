@@ -7,7 +7,10 @@ labki: \
   CMakeFiles/labki.dir/Swiat.cpp.o \
   CMakeFiles/labki.dir/zwierzeta/Zwierzeta.cpp.o \
   CMakeFiles/labki.dir/zwierzeta/Wilk.cpp.o \
+  CMakeFiles/labki.dir/zwierzeta/Lis.cpp.o \
   CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o \
+  CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.o \
+  CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.o \
   CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libcurses.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libcurses.so \
@@ -61,7 +64,13 @@ CMakeFiles/labki.dir/zwierzeta/Zwierzeta.cpp.o:
 
 CMakeFiles/labki.dir/zwierzeta/Wilk.cpp.o:
 
+CMakeFiles/labki.dir/zwierzeta/Lis.cpp.o:
+
 CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o:
+
+CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.o:
+
+CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.o:
 
 CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o:
 

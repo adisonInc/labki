@@ -142,10 +142,24 @@ CMakeFiles/labki.dir/zwierzeta/Wilk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labki.dir/zwierzeta/Wilk.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dante/projects/labki/zwierzeta/Wilk.cpp -o CMakeFiles/labki.dir/zwierzeta/Wilk.cpp.s
 
+CMakeFiles/labki.dir/zwierzeta/Lis.cpp.o: CMakeFiles/labki.dir/flags.make
+CMakeFiles/labki.dir/zwierzeta/Lis.cpp.o: /home/dante/projects/labki/zwierzeta/Lis.cpp
+CMakeFiles/labki.dir/zwierzeta/Lis.cpp.o: CMakeFiles/labki.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dante/projects/labki/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/labki.dir/zwierzeta/Lis.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labki.dir/zwierzeta/Lis.cpp.o -MF CMakeFiles/labki.dir/zwierzeta/Lis.cpp.o.d -o CMakeFiles/labki.dir/zwierzeta/Lis.cpp.o -c /home/dante/projects/labki/zwierzeta/Lis.cpp
+
+CMakeFiles/labki.dir/zwierzeta/Lis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labki.dir/zwierzeta/Lis.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dante/projects/labki/zwierzeta/Lis.cpp > CMakeFiles/labki.dir/zwierzeta/Lis.cpp.i
+
+CMakeFiles/labki.dir/zwierzeta/Lis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labki.dir/zwierzeta/Lis.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dante/projects/labki/zwierzeta/Lis.cpp -o CMakeFiles/labki.dir/zwierzeta/Lis.cpp.s
+
 CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o: CMakeFiles/labki.dir/flags.make
 CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o: /home/dante/projects/labki/zwierzeta/Owca.cpp
 CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o: CMakeFiles/labki.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dante/projects/labki/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dante/projects/labki/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o -MF CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o.d -o CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o -c /home/dante/projects/labki/zwierzeta/Owca.cpp
 
 CMakeFiles/labki.dir/zwierzeta/Owca.cpp.i: cmake_force
@@ -156,10 +170,38 @@ CMakeFiles/labki.dir/zwierzeta/Owca.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labki.dir/zwierzeta/Owca.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dante/projects/labki/zwierzeta/Owca.cpp -o CMakeFiles/labki.dir/zwierzeta/Owca.cpp.s
 
+CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.o: CMakeFiles/labki.dir/flags.make
+CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.o: /home/dante/projects/labki/zwierzeta/Antylopa.cpp
+CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.o: CMakeFiles/labki.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dante/projects/labki/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.o -MF CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.o.d -o CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.o -c /home/dante/projects/labki/zwierzeta/Antylopa.cpp
+
+CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dante/projects/labki/zwierzeta/Antylopa.cpp > CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.i
+
+CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dante/projects/labki/zwierzeta/Antylopa.cpp -o CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.s
+
+CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.o: CMakeFiles/labki.dir/flags.make
+CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.o: /home/dante/projects/labki/zwierzeta/Zolw.cpp
+CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.o: CMakeFiles/labki.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dante/projects/labki/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.o -MF CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.o.d -o CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.o -c /home/dante/projects/labki/zwierzeta/Zolw.cpp
+
+CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dante/projects/labki/zwierzeta/Zolw.cpp > CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.i
+
+CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dante/projects/labki/zwierzeta/Zolw.cpp -o CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.s
+
 CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o: CMakeFiles/labki.dir/flags.make
 CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o: /home/dante/projects/labki/rosilny/Rosliny.cpp
 CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o: CMakeFiles/labki.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dante/projects/labki/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dante/projects/labki/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o -MF CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o.d -o CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o -c /home/dante/projects/labki/rosilny/Rosliny.cpp
 
 CMakeFiles/labki.dir/rosilny/Rosliny.cpp.i: cmake_force
@@ -177,7 +219,10 @@ labki_OBJECTS = \
 "CMakeFiles/labki.dir/Swiat.cpp.o" \
 "CMakeFiles/labki.dir/zwierzeta/Zwierzeta.cpp.o" \
 "CMakeFiles/labki.dir/zwierzeta/Wilk.cpp.o" \
+"CMakeFiles/labki.dir/zwierzeta/Lis.cpp.o" \
 "CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o" \
+"CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.o" \
+"CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.o" \
 "CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o"
 
 # External object files for target labki
@@ -188,14 +233,17 @@ labki: CMakeFiles/labki.dir/Organizm.cpp.o
 labki: CMakeFiles/labki.dir/Swiat.cpp.o
 labki: CMakeFiles/labki.dir/zwierzeta/Zwierzeta.cpp.o
 labki: CMakeFiles/labki.dir/zwierzeta/Wilk.cpp.o
+labki: CMakeFiles/labki.dir/zwierzeta/Lis.cpp.o
 labki: CMakeFiles/labki.dir/zwierzeta/Owca.cpp.o
+labki: CMakeFiles/labki.dir/zwierzeta/Antylopa.cpp.o
+labki: CMakeFiles/labki.dir/zwierzeta/Zolw.cpp.o
 labki: CMakeFiles/labki.dir/rosilny/Rosliny.cpp.o
 labki: CMakeFiles/labki.dir/build.make
 labki: CMakeFiles/labki.dir/compiler_depend.ts
 labki: /usr/lib/libcurses.so
 labki: /usr/lib/libform.so
 labki: CMakeFiles/labki.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dante/projects/labki/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable labki"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dante/projects/labki/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable labki"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/labki.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

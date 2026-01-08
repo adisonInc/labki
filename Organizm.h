@@ -47,6 +47,9 @@ class Organizm {
 
     Punkt getPolozenie();
     void setPolozenie(Punkt p);
+
+    int getWiek();
+    void incWiek();
 };
 
 #endif // LABKI_ORGANIZM_H

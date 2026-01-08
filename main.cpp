@@ -1,6 +1,9 @@
 #include "Swiat.h"
+#include "zwierzeta/Antylopa.h"
+#include "zwierzeta/Lis.h"
 #include "zwierzeta/Owca.h"
 #include "zwierzeta/Wilk.h"
+#include "zwierzeta/Zolw.h"
 #include <ctime>
 #include <ncurses.h>
 
@@ -10,13 +13,23 @@ int main() {
     noecho();
     curs_set(0);
     keypad(stdscr, TRUE);
+    start_color();
+    use_default_colors();
+
+    init_pair(1, COLOR_WHITE, -1);  // default
+    init_pair(2, COLOR_RED, -1);    // Wilk
+    init_pair(3, COLOR_GREEN, -1);  // Owca
+    init_pair(4, COLOR_YELLOW, -1); // Lis
 
     Swiat *kox = Swiat::createSwiat();
 
     if (kox) {
-        kox->setGrid(40, 50);
-        kox->wypelnijGrid<Wilk>(3);
-        kox->wypelnijGrid<Owca>(6);
+        kox->setGrid(4, 3);
+        kox->wypelnijGrid<Wilk>(1);
+        // kox->wypelnijGrid<Owca>(1);
+        //  kox->wypelnijGrid<Lis>(3);
+        kox->wypelnijGrid<Antylopa>(1);
+        // kox->wypelnijGrid<Zolw>(1);
 
         int klawisz;
         while (true) {
